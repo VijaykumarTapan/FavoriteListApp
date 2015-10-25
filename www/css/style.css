@@ -1,0 +1,86 @@
+/* Empty. Add your own CSS if you like */
+
+p, input, h1, h2, h3, h4, h5
+{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p
+{
+	padding: 0;
+	margin: 0;
+}
+
+.favorites-list
+{
+	max-width: 768px;
+	min-width: 400px;
+	width: 500px;
+	margin: 30px auto;
+	margin-bottom: 0;
+}
+
+.favorites-list .book-list-heading
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 150px;
+	margin-right: 120px;
+	text-align: left;
+	display: inline-block;
+}
+
+.favorites-list .author-list-heading
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 150px;
+	text-align: left;
+	display: inline-block;
+}
+
+.favorites-list .book-list-item
+{
+	font-size: 1.0em;
+	width: 150px;
+	margin-right: 120px;
+	text-align: left;
+	display: inline-block;
+}
+
+.favorites-list .author-list-item
+{
+	font-size: 1.0em;
+	width: 150px;
+	text-align: left;
+	display: inline-block;
+}
+
+.delete-button
+{
+	margin-left: 30px;
+}
+
+.input-form-div
+{
+	margin-bottom: 30px;
+}
+
+input
+{
+	display: inline-block;
+	width: 160px;
+}
+
+input:first-child
+{
+	margin: 0;
+	margin-right: 5px;
+}
+
+.submit-btn
+{
+	background-color: #333;
+	color: white;
+	border: 1px solid #000;
+}
