@@ -1,0 +1,37 @@
+2015-08-13T16:42:02.052+0800 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-08-13T16:42:02.052+0800 I STORAGE  Service running
+2015-08-13T16:42:02.062+0800 I JOURNAL  [initandlisten] journal dir=c:\mongodb\data\db\journal
+2015-08-13T16:42:02.062+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-08-13T16:42:02.072+0800 I JOURNAL  [durability] Durability thread started
+2015-08-13T16:42:02.072+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-08-13T16:42:02.077+0800 I CONTROL  [initandlisten] MongoDB starting : pid=149332 port=27017 dbpath=c:\mongodb\data\db 64-bit host=vijaykumar
+2015-08-13T16:42:02.077+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-08-13T16:42:02.078+0800 I CONTROL  [initandlisten] db version v3.0.5
+2015-08-13T16:42:02.078+0800 I CONTROL  [initandlisten] git version: 8bc4ae20708dbb493cb09338d9e7be6698e4a3a3
+2015-08-13T16:42:02.078+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-08-13T16:42:02.078+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-08-13T16:42:02.078+0800 I CONTROL  [initandlisten] options: { config: "C:\mongodb\mongod.cfg", service: true, storage: { dbPath: "c:\mongodb\data\db" }, systemLog: { destination: "file", path: "c:\mongodb\data\log\mongod.log" } }
+2015-08-13T16:42:02.084+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-08-13T16:42:59.363+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52509 #1 (1 connection now open)
+2015-08-13T16:43:22.683+0800 I NETWORK  [conn1] end connection 127.0.0.1:52509 (0 connections now open)
+2015-08-13T16:44:14.920+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53388 #2 (1 connection now open)
+2015-08-13T16:44:40.857+0800 I NETWORK  [conn2] end connection 127.0.0.1:53388 (0 connections now open)
+2015-08-13T16:44:52.933+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:53790 #3 (1 connection now open)
+2015-08-13T16:44:55.181+0800 I NETWORK  [conn3] end connection 127.0.0.1:53790 (0 connections now open)
+2015-08-13T16:45:04.672+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2015-08-13T16:45:04.679+0800 I CONTROL  [serviceStopWorker] now exiting
+2015-08-13T16:45:04.679+0800 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-08-13T16:45:04.679+0800 I NETWORK  [serviceStopWorker] closing listening socket: 500
+2015-08-13T16:45:04.679+0800 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-08-13T16:45:04.679+0800 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-08-13T16:45:04.679+0800 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-08-13T16:45:04.679+0800 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-08-13T16:45:04.686+0800 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-08-13T16:45:04.686+0800 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-08-13T16:45:04.687+0800 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-08-13T16:45:04.781+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-08-13T16:45:04.781+0800 I JOURNAL  [durability] Durability thread stopped
+2015-08-13T16:45:04.781+0800 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-08-13T16:45:04.782+0800 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-08-13T16:45:04.782+0800 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-08-13T16:45:04.782+0800 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
